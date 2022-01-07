@@ -177,7 +177,7 @@ extern "C" {
  * LR1110_LORAWAN_REGION_KR920
  * LR1110_LORAWAN_REGION_RU864
  */
-#define LORAWAN_REGION_USED LR1110_LORAWAN_REGION_EU868
+#define LORAWAN_REGION_USED LR1110_LORAWAN_REGION_US915
 
 /*!
  * @brief LoRaWAN regulatory region country. define LoRaWAN subregion countries to activate or not the LBT, 0 means disable, 1 means enable

@@ -83,7 +83,7 @@
 /*!
  * @brief Tx Power used during test, in dBm.
  */
-#define TX_POWER_USED 14
+#define TX_POWER_USED 22
 
 /*!
  * @brief Tx Power offset used during test
@@ -109,13 +109,13 @@
  * LR1110_LORAWAN_REGION_KR920
  * LR1110_LORAWAN_REGION_RU864
  */
-#define LORAWAN_REGION_USED LR1110_LORAWAN_REGION_EU868
+#define LORAWAN_REGION_USED LR1110_LORAWAN_REGION_US915
 
 /*!
  * @brief Frequency used during test, \note the frequency SHALL be allow by the lorawan region,
  *       set 915MHz with EU868 region will not work
  */
-#define FREQUENCY 868100000
+#define FREQUENCY 915000000
 
 /*!
  * @brief Spreading factor for test mode

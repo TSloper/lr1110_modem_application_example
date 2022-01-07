@@ -77,18 +77,18 @@ extern "C" {
 /*!
  * @brief Use or not the Semtech join server
  */
-#define USE_SEMTECH_JOIN_SERVER 1
+#define USE_SEMTECH_JOIN_SERVER 0
 
 /*!
  * @brief Use or not the LoRaWAN production Keys. If not, keys are described below
  */
-#define USE_PRODUCTION_KEYS 1
+#define USE_PRODUCTION_KEYS 0
 
 /*!
  * @brief IEEE Organizationally Unique Identifier ( OUI ) (big endian)
  * @remark This is unique to a company or organization
  */
-#define IEEE_OUI 0x00, 0x00, 0x00
+#define IEEE_OUI 0x60, 0x81, 0xF9
 
 /*!
  * @brief Device IEEE EUI (big endian)
@@ -98,7 +98,7 @@ extern "C" {
  */
 #define LORAWAN_DEVICE_EUI                     \
     {                                          \
-        IEEE_OUI, 0x00, 0x00, 0x00, 0x00, 0x00 \
+        IEEE_OUI, 0xAB, 0xD8, 0xF4, 0xF1, 0xE4 \
     }
 #define LORAWAN_DEVICE_EUI_LEN 8
 
@@ -107,7 +107,7 @@ extern "C" {
  */
 #define LORAWAN_JOIN_EUI                               \
     {                                                  \
-        0x00, 0x16, 0xC0, 0x01, 0xFF, 0xFE, 0x00, 0x01 \
+        0x60, 0x81, 0xF9, 0x72, 0xDC, 0x9C, 0x1A, 0xFE \
     }
 #define LORAWAN_JOIN_EUI_LEN 8
 
@@ -116,7 +116,7 @@ extern "C" {
  */
 #define LORAWAN_APP_KEY                                                                                \
     {                                                                                                  \
-        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 \
+        0x7A, 0xF3, 0xEB, 0x90, 0xDA, 0xFD, 0xAA, 0xF6, 0x8F, 0xF6, 0x0A, 0x4F, 0x2E, 0x4C, 0xD3, 0xE3 \
     }
 #define LORAWAN_APP_KEY_LEN 16
 

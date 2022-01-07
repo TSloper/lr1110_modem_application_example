@@ -65,7 +65,7 @@ extern "C" {
 #define HAL_LOW_POWER_MODE HAL_FEATURE_ON
 
 /* HAL_FEATURE_ON to enable debug probe, not disallocating corresponding pins */
-#define HAL_HW_DEBUG_PROBE HAL_FEATURE_OFF
+#define HAL_HW_DEBUG_PROBE HAL_FEATURE_ON
 
 #define HAL_USE_PRINTF_UART HAL_FEATURE_ON
 #define HAL_PRINTF_UART_ID 2
