@@ -1,0 +1,5 @@
+# Keil uVision5
+
+MDK-ARM/*
+!MDK-ARM/*.uvprojx
+!MDK-ARM/*.s
